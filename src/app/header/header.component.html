@@ -1,0 +1,23 @@
+<header>
+    <mat-toolbar>
+        <span>
+            <!-- use [routerLinkActiveOptions]="{ exact: true }" if there are two options with similar paths i.e. "/"-->
+            <img src="faceicon.ico">
+            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Evan</a>
+        </span>
+        <span class="spacer"></span>
+        <nav class="site-nav">
+            <ul>
+                <li>
+                    <a routerLink="/about" routerLinkActive="active">About</a>
+                </li>
+                <li>
+                    <a routerLink="/blog" routerLinkActive="active">Blog</a>
+                </li>
+                <li>
+                    <a routerLink="/projects" routerLinkActive="active">Projects</a>
+                </li>
+            </ul>
+        </nav>
+    </mat-toolbar>
+</header>

@@ -1,0 +1,17 @@
+.home a.primary-links {
+    background: #212121;
+    color: #999;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.home a.primary-links:hover {
+    color: #c2185b;
+}
+
+@media screen and (max-width: 600px) {
+    .home a.primary-links {
+        display: block;
+    }
+}

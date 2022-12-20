@@ -1,0 +1,13 @@
+<main>
+  <div class="wrapper">
+    <div class="center">
+      <h2>Blog</h2>
+    </div>
+    <p *ngFor="let post of posts">
+      <a routerLink="/blog/{{ post.id }}">
+        {{ post.summary }}
+      </a>
+      <br>
+    </p>
+  </div>
+</main>

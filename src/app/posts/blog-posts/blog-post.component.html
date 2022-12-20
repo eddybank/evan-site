@@ -1,0 +1,19 @@
+<main>
+  <div class="wrapper">
+    <div class="center">
+      <h2>Blog</h2>
+    </div>
+    <span><a routerLink="/blog"><< Go Back</a></span>
+    <mat-accordion multi="true">
+      <mat-expansion-panel *ngIf="post">
+          <mat-expansion-panel-header>
+            {{ post.summary }}
+          </mat-expansion-panel-header>
+          <div class="post-image">
+              <img type="image" src="{{ post.url }}" alt="{{ post.title }}">
+          </div>
+          <p>{{ post.content }}</p>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</main>

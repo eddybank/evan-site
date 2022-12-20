@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "id": "abc",
+            "createdAt": "2022-12-15T18:11:00Z",
+            "imageTitle": "image featured in post 1",
+            "url": "assets/eddy.JPG",
+            "summary": "Example Post",
+            "author": "Evan Horbinski",
+            "content": "Angular framework is very robust and provides many tools to developer. It is great for creating single-page applications for virtually any purpose. One being a blog-post website like this."
+        },
+        {
+            "id": "1",
+            "createdAt": "2022-12-15T18:11:00Z",
+            "imageTitle": "image featured in post 2",
+            "url": "assets/eddy.JPG",
+            "summary": "Example Post",
+            "author": "Evan Horbinski",
+            "content": "Angular framework is very robust and provides many tools to developer. It is great for creating single-page applications for virtually any purpose. One being a blog-post website like this."
+        }
+    ]
+}

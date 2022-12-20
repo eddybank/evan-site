@@ -1,0 +1,17 @@
+.post-image {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem auto;
+    overflow: auto;
+}
+
+.post-image img {
+    max-height: 32rem;
+    width: auto;
+    height: auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+span > a {
+    font-size: 14px;
+}
