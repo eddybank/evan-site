@@ -12,6 +12,15 @@
     height: auto;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
+
 span > a {
     font-size: 14px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 50px 0 40px 0;
 }

@@ -1,22 +1,13 @@
 {
     "posts": [
         {
-            "id": "abc",
-            "createdAt": "2022-12-15T18:11:00Z",
+            "id": "post-12-19-2022",
+            "createdAt": "2022-12-19",
             "imageTitle": "image featured in post 1",
-            "url": "assets/eddy.JPG",
-            "summary": "Example Post",
+            "url": "",
+            "summary": "Site deployed using AWS Amplify",
             "author": "Evan Horbinski",
-            "content": "Angular framework is very robust and provides many tools to developer. It is great for creating single-page applications for virtually any purpose. One being a blog-post website like this."
-        },
-        {
-            "id": "1",
-            "createdAt": "2022-12-15T18:11:00Z",
-            "imageTitle": "image featured in post 2",
-            "url": "assets/eddy.JPG",
-            "summary": "Example Post",
-            "author": "Evan Horbinski",
-            "content": "Angular framework is very robust and provides many tools to developer. It is great for creating single-page applications for virtually any purpose. One being a blog-post website like this."
+            "content": "As I try to expand my knowledge of the many technologies available, I have created my own website using Angular15 and Angular Material.\\nIt has been a great experience experimenting not just with Angular but with AWS's various deployment options."
         }
     ]
 }

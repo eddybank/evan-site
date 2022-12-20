@@ -1,13 +1,19 @@
-<main>
+<main class="main-container">
   <div class="wrapper">
-    <div class="center">
-      <h2>Blog</h2>
+    <header class="post-list-header">
+      <h1>Blog</h1>
+    </header>
+    <div class="post-content">
+      <div class="blog">
+        <ul class="post-list">
+          <li *ngFor="let post of posts">
+            <span class="post-meta">{{ post.createdAt }}</span>
+            <a routerLink="/blog/{{ post.id }}">
+              {{ post.summary }}
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <p *ngFor="let post of posts">
-      <a routerLink="/blog/{{ post.id }}">
-        {{ post.summary }}
-      </a>
-      <br>
-    </p>
   </div>
 </main>

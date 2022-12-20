@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { Post } from '../post.model';
+
 import { BlogPostsService } from '../posts.servive';
 
 @Component({
@@ -10,7 +10,7 @@ import { BlogPostsService } from '../posts.servive';
 })
 export class BlogPostComponent implements OnInit {
   private postId;
-  posts: any;
+  //posts: any;
   post: any;
   constructor(private BlogPostsService: BlogPostsService, public route: ActivatedRoute) {}
 

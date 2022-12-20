@@ -1,14 +1,14 @@
-.post-image {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin: 0.5rem auto;
-    overflow: auto;
+.post-list {
+    list-style: none;
+    padding: 0;
 }
 
-.post-image img {
-    max-height: 32rem;
-    width: auto;
-    height: auto;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+.post-list > li {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.post-meta {
+    margin-right: 1rem;
 }

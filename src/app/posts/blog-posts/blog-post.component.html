@@ -1,19 +1,20 @@
-<main>
+<main class="main-container">
   <div class="wrapper">
-    <div class="center">
-      <h2>Blog</h2>
-    </div>
-    <span><a routerLink="/blog"><< Go Back</a></span>
-    <mat-accordion multi="true">
-      <mat-expansion-panel *ngIf="post">
-          <mat-expansion-panel-header>
-            {{ post.summary }}
-          </mat-expansion-panel-header>
-          <div class="post-image">
-              <img type="image" src="{{ post.url }}" alt="{{ post.title }}">
-          </div>
-          <p>{{ post.content }}</p>
-      </mat-expansion-panel>
-    </mat-accordion>
+    <span>
+      <a routerLink="/blog"><< All Posts</a>
+    </span>
+    <article class="blog-post" *ngIf="post">
+      <header class="post-header">
+        <h1 class="post-title">{{ post.summary }}</h1>
+        <p class="post-meta">{{ post.createdAt }}</p>
+      </header>
+      <div class="post-content">
+        <hr>
+        <div class="post-image" *ngIf="post.url">
+          <img type="image" src="{{ post.url }}" alt="{{ post.imageTitle }}">
+        </div>
+        <p *ngFor="let sub of post.content.split('\\n')">{{ sub }}</p>
+      </div>
+    </article>
   </div>
 </main>

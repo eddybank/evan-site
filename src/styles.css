@@ -24,6 +24,12 @@ a {
     color: #999;
 }
 
+p {
+    color: #999;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
 a:hover {
     color: #c2185c8a;
 }
@@ -75,4 +81,23 @@ a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #c2185b; 
+}
+
+.post-header {
+    margin-bottom: 30px;
+}
+
+.post-title {
+    font-size: 46.2px;
+    font-weight: bold;
+    line-height: 56.1px;
+    letter-spacing: -1px;
+}
+
+.post-content  {
+    margin-bottom: 30px;
+}
+
+.main-container {
+    padding-top: 64px;
 }
