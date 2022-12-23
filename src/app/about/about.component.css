@@ -10,10 +10,6 @@ h2:not(.mt-0) {
     font-weight: 400;
 }
 
-a {
-    color: #c2185b;
-}
-
 a:visited {
     color: #c593a700;
 }
