@@ -11,7 +11,7 @@
       <div class="post-content">
         <hr>
         <div class="post-image" *ngIf="post.url">
-          <img type="image" src="{{ post.url }}" alt="{{ post.imageTitle }}">
+          <img type="image" width="{{ post.imageWidth }}" width="{{ post.imageHeight }}" src="{{ post.url }}" alt="{{ post.imageTitle }}">
         </div>
         <p *ngFor="let sub of post.content.split('\\n')">{{ sub }}</p>
       </div>

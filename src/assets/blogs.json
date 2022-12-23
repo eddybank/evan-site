@@ -5,6 +5,8 @@
             "createdAt": "2022-12-19",
             "imageTitle": "image featured in post 1",
             "url": "",
+            "imageWidth": "",
+            "imageHeight": "",
             "summary": "Site deployed using AWS Amplify",
             "author": "Evan Horbinski",
             "content": "Welcome to my personal website!\\nAs I begin my career in software, I continuly look to exapnd my knowledge of widely used languages and technologies. Building my personal website is just the first step to solve new challenges and gain insightful experience with new technologies.\\nI have dived head first into the world of AWS and all of the hosting/cloud services that they provide, exploring options such as Elastic Beanstalk, EC2, and Amplify hosting for my website's needs. AWS Amplify was my go-to because of the easy-to-use nature when deploying whilst being able to update deployments on-demand.\\nOverall, it has been a great experience developing with Angular and AWS's various deployment options. I'm excited for what is to come!"

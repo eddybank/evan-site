@@ -1,7 +1,7 @@
 <header class="site-header">
     <div class="wrapper">
         <a class="site-title" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
-            <img class="site-title-img" src="faceicon.ico" alt="Evan Horbinski">
+            <img class="site-title-img" width="32" height="32" src="faceicon.ico" alt="Evan Horbinski">
             Evan
         </a>
         <nav class="site-nav">
@@ -16,9 +16,9 @@
                 </span>
             </label>
             <div class="trigger">
-                <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
-                <a class="nav-link" routerLink="/blog" routerLinkActive="active">Blog</a>
-                <a class="nav-link" routerLink="/projects" routerLinkActive="active">Projects</a>
+                <a class="nav-link" routerLink="/about" routerLinkActive="active" aria-label="About">About</a>
+                <a class="nav-link" routerLink="/blog" routerLinkActive="active" aria-label="Blog">Blog</a>
+                <a class="nav-link" routerLink="/projects" routerLinkActive="active" aria-label="Projects">Projects</a>
             </div>
         </nav>
     </div>
