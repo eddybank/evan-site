@@ -12,3 +12,6 @@
 .post-meta {
     margin-right: 1rem;
 }
+.post-list > li > a {
+    text-decoration: underline;
+}
