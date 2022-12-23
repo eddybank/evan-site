@@ -31,7 +31,7 @@ p {
 }
 
 a:hover {
-    color: #c2185c8a;
+    color: white;
 }
 
 .wrapper {
@@ -56,10 +56,6 @@ a:hover {
     content: "";
     display: table;
     clear: both;
-}
-
-.spacer {
-    flex: 1 1 auto;
 }
 
 .center {
