@@ -1,23 +1,25 @@
-<header>
-    <mat-toolbar>
-        <span>
-            <!-- use [routerLinkActiveOptions]="{ exact: true }" if there are two options with similar paths i.e. "/"-->
-            <img src="faceicon.ico">
-            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Evan</a>
-        </span>
-        <span class="spacer"></span>
+<header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            <img class="site-title-img" src="faceicon.ico" alt="Evan Horbinski">
+            Evan
+        </a>
         <nav class="site-nav">
-            <ul>
-                <li>
-                    <a routerLink="/about" routerLinkActive="active">About</a>
-                </li>
-                <li>
-                    <a routerLink="/blog" routerLinkActive="active">Blog</a>
-                </li>
-                <li>
-                    <a routerLink="/projects" routerLinkActive="active">Projects</a>
-                </li>
-            </ul>
+            <input type="checkbox" id="nav-trigger" class="nav-trigger">
+            <label for="nav-trigger">
+                <span class="menu-icon">
+                    <svg viewBox="0 0 24 24" width="24px" height="24px">
+                        <path fill="#ccc" d="M 4 0 h 16 v 1 h -16 z"/>
+                        <path fill="#ccc" d="M 4 8 h 16 v 1 h -16 z"/>
+                        <path fill="#ccc" d="M 4 16 h 16 v 1 h -16 z"/>
+                    </svg>
+                </span>
+            </label>
+            <div class="trigger">
+                <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+                <a class="nav-link" routerLink="/blog" routerLinkActive="active">Blog</a>
+                <a class="nav-link" routerLink="/projects" routerLinkActive="active">Projects</a>
+            </div>
         </nav>
-    </mat-toolbar>
+    </div>
 </header>
