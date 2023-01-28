@@ -16,6 +16,8 @@
                 <p *ngFor="let sub of project.content.split('\\n')">{{ sub }}</p>
             </div>
         </article>
+        <frame-modal-component *ngIf="project.iframe"></frame-modal-component>
     </div>
+    
     <!--<solitaire-iframe *ngIf="project.iframe"></solitaire-iframe> -->
 </main>
