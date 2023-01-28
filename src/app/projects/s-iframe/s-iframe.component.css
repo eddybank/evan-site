@@ -36,35 +36,23 @@
 }
 
 .iframe-app {
-    height: 1216px; 
-    width: 1318px;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     margin: 0 auto;
     border-color: #ccc;
     border-radius: 5px;
     border-width: 1px;
+    background-color: transparent;
+    overflow: auto;
 }
 
-.my-modal {
-    display: block;
-    background: rgba(0, 0, 0, 0.5);
-    height: 100vh;
-    width: 0;
-}
-
-.fade {
-    opacity: 0;
-    transition: opacity .15s linear;
-}
-
-.modal-backdrop.show {
-    opacity: .5;
-}
-
-.modal-backdrop.fade {
-    opacity: 0;
-}
-
-.fade.show {
-    opacity: 1;
+.frame {
+    height: 100%;
+    min-height: 450px;
+    width: 100%;
+    min-width: 500px;
+    margin: 0 auto;
+    margin: 0 auto;
+    overflow: none;
 }

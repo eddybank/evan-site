@@ -13,7 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { BlogPostComponent } from './posts/blog/blog.component';
 import { BlogListComponent } from './posts/blog-list/blog-list.component';
 import { ProjectComponent } from './projects/project/project.component';
-import { SIFrameComponent } from './projects/s-iframe/s-iframe.component';
+import { FrameModalComponent } from './modal/framemodal.component.';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; 
 
 @NgModule({
   declarations: [
@@ -26,12 +27,13 @@ import { SIFrameComponent } from './projects/s-iframe/s-iframe.component';
     AboutComponent,
     ProjectListComponent,
     ProjectComponent,
-    SIFrameComponent
+    FrameModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
