@@ -8,6 +8,7 @@
 
 .home a.primary-links:hover {
     color: white;
+    background: #202020
 }
 
 @media screen and (max-width: 600px) {
