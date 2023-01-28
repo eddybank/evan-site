@@ -1,0 +1,28 @@
+<hr>
+<div class="iframe-buttons">
+    <div>
+        <p>Use the button to open and explore my solitaire project within the browser. (Uses Cheerpj API)</p>
+    </div>
+    <button type="button" id="display" class="show" (click)="open()">Display Solitaire Menu In Browser</button>
+    <button type="button" id="hide" class="hide" (click)="hideFrame()">Close Solitaire Menu</button>
+</div>
+<div class="modal fade my-modal" tabindex="-1" role="dialog" #myModal>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+           <h5 class="modal-title">Modal title</h5>
+           <button type="button" class="close" (click)="close()" aria-label="Close"><span aria-hidden="true">&times;</span>
+           </button>
+        </div>
+        <div class="modal-body">
+            <div id="iframe" class="hide iframe-app">
+                <iframe name="targetframe" height="100%" width="100%" allowTransparency="true" scrolling="yes" src="assets/tutorial.html"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary"  (click)="close()" >Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
