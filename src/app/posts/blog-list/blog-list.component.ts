@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { BlogPostsService } from '../posts.servive';
+import { BlogPostsService } from '../posts.service';
 
 @Component({
   selector: 'app-blog-list',

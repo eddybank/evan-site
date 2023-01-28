@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 
-import { BlogPostsService } from '../posts.servive';
+import { BlogPostsService } from '../posts.service';
 
 @Component({
   selector: 'app-blog-post',
-  templateUrl: './blog-post.component.html',
-  styleUrls: ['./blog-post.component.css']
+  templateUrl: './blog.component.html',
+  styleUrls: ['./blog.component.css']
 })
 export class BlogPostComponent implements OnInit {
   private postId;
