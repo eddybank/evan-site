@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
-import { BlogPostComponent } from './posts/blog-posts/blog-post.component';
+import { BlogPostComponent } from './posts/blog/blog.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectListComponent } from './projects/project-list/project-list.component';
 import { BlogListComponent } from './posts/blog-list/blog-list.component';

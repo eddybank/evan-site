@@ -1,0 +1,21 @@
+{
+    "projects": [
+        {
+            "id": "project-01-26-2023",
+            "createdAt": "2023-01-26",
+            "imageTitle": "",
+            "url": [
+                {"image": "assets/images/solitaire-1.png"},
+                {"image": "assets/images/solitaire-2.png"},
+                {"image": "assets/images/solitaire-3.png"},
+                {"image": "assets/images/solitaire-4.png"}
+            ],
+            "imageWidth": "",
+            "imageHeight": "",
+            "iframe": true,
+            "summary": "Solitaire Menu - Course Project",
+            "author": "Evan Horbinski",
+            "content": "During my Senior year at UTC, my team and I were tasked to create Flea Market Solitaire housed together with other versions of solitaire in a game menu using Java for our Software Engineering course. The start of this project came with requirements from our stakeholder, whom was asking for a game platform with the ability customize aspects of the user experience, such as sound and colors, while also including instructions how to play the game and a way to track a user statistics (score, win/loss, etc) when playing.\\nTaking these requirements my team and I quickly began determining User Stories and created a software specification document to outline the overall purpose and technical design, application feature set, initial interface wire frames, and functional/nonfunctional requirements of the solitaire menu.\\nWhen it came down to creating our application, we were given a piece of pre-existing code, a standalone verison of solitaire called Klondike. Although there were many design flaws within this existing code, it was helpful get our version of solitaire, Flea Market, up and running faster.\\nThe code for Klondike did not utilize object orientation, so this was something that I immediately changed to make it easier to implement with our game menu. The second order of business for Flea Market solitaire was coding the logic of card movements and determining valid moves. Once all bugs were squashed out and the logic working as expected, I began adding the features we had laid out within our SRS. I designed a class to faciliate record keeping that created an XML file in the home directory of the user's computer to save and maintain scoring across all game types. Upon launching the game menu, the user would be asked to type in their desired username and hit enter to log in using their name of choice or simply click the guest button to play as guest. The XML file was also used to maintain a user's favorite background color and best win time. Some other features that were implemented include sounds for moving cards and dealing cards, images to display cards, and auto-play."
+        }
+    ]
+}

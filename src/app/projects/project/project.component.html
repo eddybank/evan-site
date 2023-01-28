@@ -1,7 +1,21 @@
 <main class="main-container">
     <div class="wrapper">
-        <div class="center">
-            <h2>Project</h2>
-        </div>
+        <span>
+            <a routerLink="/projects"><< All Projects</a>
+        </span>
+        <article class="blog-post" *ngIf="project">
+            <header class="post-header">
+                <h1 class="post-title">{{ project.summary }}</h1>
+                <p class="post-meta">{{ project.createdAt }}</p>
+            </header>
+            <div class="post-content">
+                <hr>
+                <!-- <div class="post-image" *ngIf="project.url">
+                  <img *ngFor="let image of project.url" type="image" width="400" width="400" src="{{ image.image }}" alt="{{ project.imageTitle }}">
+                </div> -->
+                <p *ngFor="let sub of project.content.split('\\n')">{{ sub }}</p>
+            </div>
+        </article>
     </div>
+    <!--<solitaire-iframe *ngIf="project.iframe"></solitaire-iframe> -->
 </main>
