@@ -14,7 +14,8 @@ const routes: Routes = [
   { path: 'blog/:id', component: BlogPostComponent},
   { path: 'projects', component: ProjectListComponent},
   { path: 'projects/:id', component: ProjectComponent},
-  { path: 'sitemap.xml', redirectTo: '../sitemap.xml' }
+  { path: 'sitemap.xml', redirectTo: '../sitemap.xml' },
+  { path: '**', redirectTo: ''}
 ];
 
 @NgModule({
